@@ -1,5 +1,7 @@
 # Empty Phrases 1.0.0
 
+![image](https://github.com/NeuralCortex/Empty_Phrases/blob/main/images/ep.png)
+
 ## Funktionsweise des Programms
 
 Das Programm erzeugt unter Zuhilfenahme von Wortteilen aus einer Datenbank zufällige Phrasen die jeden Nutzer zum perfekten Politiker machen.</br>
