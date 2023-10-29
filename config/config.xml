@@ -2,7 +2,4 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>Comment</comment>
-<entry key="COORD_LON">10.665042400360107</entry>
-<entry key="COORD_LAT">50.65939826461921</entry>
-<entry key="CSV_DIR">C:\Users\pscha\Downloads</entry>
 </properties>
