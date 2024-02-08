@@ -1,5 +1,7 @@
 package com.fx.emp;
 
+import java.util.Locale;
+
 public class Globals {
 
     //Für Funktionen
@@ -32,6 +34,8 @@ public class Globals {
     public static final String XML_CONFIG_PATH = System.getProperty("user.dir") + "/config/config.xml";
     public static final String POV_BLUEPRINT_CONFIG_PATH = System.getProperty("user.dir") + "/config/blueprint.pov";
 
+    public static final Locale DEFAULT_LOCALE = Locale.US;
+
     public static XMLPropertyManager propman;
 
     static {
@@ -48,7 +52,7 @@ public class Globals {
     //FXML
     public static final String FXML_PATH = "/com/fx/emp/fxml/";
     public static final String FXML_TABS_PATH = "/com/fx/emp/fxml/tabs/";
-    
+
     public static final String FXML_MAIN_PATH = FXML_PATH + "main_app.fxml";
     public static final String FXML_MAP_PATH = FXML_PATH + "map.fxml";
     public static final String FXML_MAP_HEIGHT_PATH = FXML_PATH + "map_height.fxml";

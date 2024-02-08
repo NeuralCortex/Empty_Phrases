@@ -49,7 +49,7 @@ public class PhraseController implements Initializable, PopulateInterface {
         btnGen.setText(bundle.getString("btn.gen"));
 
         TableColumn colNr = new TableColumn("Nr.");
-        TableColumn colPhrase = new TableColumn("Phrasen");
+        TableColumn colPhrase = new TableColumn(bundle.getString("col.phrase"));
         
         colNr.setMaxWidth(300);
 
