@@ -19,7 +19,7 @@ public class Globals {
     public static boolean SHOW_TEST_UI = false;
 
     //Fenstergröße global gesteuert in 16:9
-    public static final double HEIGHT = 900.0f;
+    public static final double HEIGHT = 600.0f;
     public static final double WIDTH = HEIGHT * 16.0f / 9.0f;
 
     //Schalter für Maximized Ein / Aus
@@ -46,7 +46,7 @@ public class Globals {
     public static final String APP_LOGO_PATH = System.getProperty("user.dir") + "/images/kdf.png";
     public static final String SIDE_IMAGE_PATH = System.getProperty("user.dir") + "/images/side.png";
     public static final String CENTER_IMAGE = System.getProperty("user.dir") + "/images/lago.jpg";
-    public static final String CSS_PATH = "/com/fx/emp/style/hec.css";
+    public static final String CSS_PATH = "/com/fx/emp/style/nc.css";
     public static final String MOON_IMAGE_PATH = System.getProperty("user.dir") + "/images/mond_small.png";
 
     //FXML

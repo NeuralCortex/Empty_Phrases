@@ -42,13 +42,12 @@ public class PhraseController implements Initializable, PopulateInterface {
 
     @Override
     public void initialize(URL url, ResourceBundle bundle) {
-        hBox.setId("hec-background-blue");
-        lbGen.setId("hec-text-white");
+        hBox.setId("blue");
 
         lbGen.setText("");
         btnGen.setText(bundle.getString("btn.gen"));
 
-        TableColumn colNr = new TableColumn("Nr.");
+        TableColumn colNr = new TableColumn("Idx");
         TableColumn colPhrase = new TableColumn(bundle.getString("col.phrase"));
         
         colNr.setMaxWidth(300);

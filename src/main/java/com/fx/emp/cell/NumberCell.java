@@ -22,7 +22,7 @@ public class NumberCell extends TableCell<Part, Long>{
             setGraphic(null);
             setStyle("");
         } else if (item != null && !empty) {
-            Font font=new Font("Arial",50);
+            Font font=new Font("Arial",30);
             
             Label label = new Label(item.toString());
             label.setFont(font);

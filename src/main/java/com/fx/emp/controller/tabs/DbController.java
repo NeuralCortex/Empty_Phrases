@@ -40,8 +40,7 @@ public class DbController implements Initializable, PopulateInterface {
 
     @Override
     public void initialize(URL url, ResourceBundle bundle) {
-        hBox.setId("hec-background-blue");
-        lbPart.setId("hec-text-white");
+        hBox.setId("blue");
 
         lbPart.setText(bundle.getString("lb.edit.msg"));
         btnInit.setText(bundle.getString("btn.init"));

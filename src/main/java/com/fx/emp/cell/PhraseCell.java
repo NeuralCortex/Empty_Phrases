@@ -20,7 +20,7 @@ public class PhraseCell extends TableCell<Part, String> {
             setGraphic(null);
             setStyle("");
         } else if (item != null && !empty) {
-            Font font = new Font("Arial", 50);
+            Font font = new Font("Arial", 30);
 
             Label label = new Label(item);
             label.setFont(font);

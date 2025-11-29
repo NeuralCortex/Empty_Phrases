@@ -10,7 +10,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.util.Locale;
 import java.util.ResourceBundle;
 import javafx.application.Platform;
 import javafx.geometry.Rectangle2D;
@@ -49,7 +48,7 @@ public class MainApp extends Application {
         Rectangle2D primScreenBounds = Screen.getPrimary().getVisualBounds();
         stage.setX((primScreenBounds.getWidth() - stage.getWidth()) / 2);
         stage.setY((primScreenBounds.getHeight() - stage.getHeight()) / 2);
-        
+
         stage.setOnCloseRequest(e -> {
             HibernateUtil.closeSessionFactory();
             Platform.exit();

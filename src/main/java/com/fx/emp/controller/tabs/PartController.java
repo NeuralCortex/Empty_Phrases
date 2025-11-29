@@ -52,13 +52,16 @@ public class PartController implements Initializable, PopulateInterface {
 
     @Override
     public void initialize(URL url, ResourceBundle bundle) {
-        hBox.setId("hec-background-blue");
-        lbPart.setId("hec-text-white");
+        hBox.setId("blue");
 
         lbPart.setText(bundle.getString("lb.part") + " " + part.ordinal() + ":");
         btnAdd.setText(bundle.getString("btn.add"));
         btnRename.setText(bundle.getString("btn.rename"));
         btnDel.setText(bundle.getString("btn.del"));
+        
+        btnAdd.getStyleClass().add("btn-blue");
+        btnRename.getStyleClass().add("btn-blue");
+        btnDel.getStyleClass().add("btn-indigo");
         
         tfAdd.setPromptText("Phrase");
         tfRename.setPromptText("Phrase");
